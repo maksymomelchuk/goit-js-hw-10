@@ -19,8 +19,6 @@ body {
   margin-top: 30px;
   margin-left: 30px;
 
-
-
   border: 1px solid black;
 }
 
@@ -28,10 +26,8 @@ body {
   list-style: none;
 }
 
-.country {
-  display: flex;
-  align-items: center;
-  gap: 20px;
+.country-info {
+  padding-left: 40px;
 }
 
 .title {
@@ -50,16 +46,11 @@ body {
 }
 
 .list-item {
-
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.list-item-column {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
+
 .img {
   width: 40px;
   height: 20px;
